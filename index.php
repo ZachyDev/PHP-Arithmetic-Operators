@@ -1,5 +1,11 @@
 <?php
-// definining a constant-the value cannot be changed later in the code
-    define("PHP_DOC","PHP Documentation  <a href='phpinfo()'>Documentation</a>");
-    echo PHP_DOC;
+    $a = 20;
+    $b =100;
+    // addition
+    echo $a + $b ."<br>";
+    // subtraction
+    echo $a - $b."<br>";
+    
+    // product
+    echo $a * $b;
 ?>
